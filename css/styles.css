@@ -155,7 +155,7 @@ body{
 	font-weight: 300;
 	transition: all 300ms;
 }
-.simplefilter li.active{
+.simplefilter li a.current{
 	color: #4f0d4d;
 	cursor: default;
 }
