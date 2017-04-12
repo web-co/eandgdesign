@@ -131,9 +131,7 @@ body{
 	max-width: 1020px;
 	padding-top: 30px;
 	margin: auto;
-}
-.port_w{
-	padding-top: 
+	height: auto;
 }
 .title_portfolio{
 	color: #777;
