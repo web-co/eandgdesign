@@ -217,12 +217,12 @@ body{
 	opacity: 0.75;
 	transform: scale(1.02);
 }
-/* .filtr-item img{
+.filtr-item img{
 	display: block;
 	width: 100%;
 	max-width: 468px;
 	position: relative;
-} */
+}
 /********FOOTER**************************************************/
 .footer_top{
 	display: block;
