@@ -181,16 +181,16 @@ body{
 .filtr-container{
 	position: relative;
 }
-.filtr-container>div{
-	float: left;
-	width: 50%;
-	padding-bottom: 20px;
+#portfolio-list li{
+	width: 49.5%;
 	text-align: center;
+	padding: 0 1%;
+	padding-bottom: 20px;
+	display: inline-block;
 }
 .filtr-container  a{
 	display: inline-block;
 	width: 100%;
-	height: auto; 
 	padding: 3px;
 	border: 1px solid #ccc;
 	max-width: 474px;
@@ -207,6 +207,10 @@ body{
 	-webkit-transition: all 400ms;
 	-moz-transition: all 400ms;
 	-o-transition: all 400ms;
+	display: block;
+	width: 100%;
+	max-width: 468px;
+	position: relative;
 }
 .filtr-container a:hover{
 	box-shadow: 6px 6px 4px -5px rgba(0,0,0,0.4);
@@ -214,12 +218,6 @@ body{
 .filtr-container a:hover img{
 	opacity: 0.75;
 	transform: scale(1.02);
-}
-.filtr-item img{
-	display: block;
-	width: 100%;
-	max-width: 468px;
-	position: relative;
 }
 /********FOOTER**************************************************/
 .footer_top{
@@ -345,8 +343,7 @@ body{
 
 
 @media all and (max-width: 678px){
-	.filtr-container >div {
-		float: none;
+	#portfolio-list li {
 		width: 100%;
 		padding-bottom: 15px;
 		padding-left: 10px;
