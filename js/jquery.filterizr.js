@@ -7,7 +7,6 @@
 * @version 1.2.3
 * @license MIT License
 */
-
 (function(global, $) {
 
     'use strict';
@@ -1032,3 +1031,4 @@
     };
 
 })(this, jQuery);
+
